@@ -28,7 +28,7 @@ class Application {
   }
   connectToDB() {
     mongoose
-      .connect(this.#DB_URI, {
+      .connect('mongodb+srv://kind63lady:lkEFsb6f9el2t6qz@cluster0.eu3lg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
         useNewUrlParser: true,
         useUnifiedTopology: true,
       })
