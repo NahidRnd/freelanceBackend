@@ -1,2 +1,2 @@
-const Application = require("./app/server.js");
+const Application = require("./api/index.js");
 new Application();
